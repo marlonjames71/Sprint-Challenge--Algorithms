@@ -2,10 +2,10 @@
 
 ## Exercise I
 
-a)
+a) O(n^3)
 
 
-b)
+b) O(n)
 
 
 c)
