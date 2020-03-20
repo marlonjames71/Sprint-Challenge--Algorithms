@@ -12,6 +12,8 @@ c) `O(n)` - The time depends on the number of `bunnies (n)` being passed in. The
 
 ## Exercise II
 
-
+I would use a binary search which has a runtime complexity of `O(log n)`.
+Start at the middle of n floors and drop an egg. if the egg breaks we throw away the upper half and focus on the lower half
+We can use recursion and repeat the above step to keep halving until we find the floor `f`
 
 
