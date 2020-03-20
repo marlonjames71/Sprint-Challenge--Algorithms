@@ -9,7 +9,7 @@ def count_th(word):
 def count_assist(word, occurences):
     if word == "":
         return occurences
-    elif word.startsWith("th"):
-        return count_assist(word[:2], occurences + 1)
+    elif word.startswith("th"):
+        return count_assist(word[2:], occurences + 1)
     else:
         return count_assist(word[1:], occurences)
